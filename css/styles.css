@@ -35,14 +35,14 @@ body {
 
 /* Declare heights because of positioning of img element */
 .carousel .item {
-  height: 400px;
+  height: 500px;
   background-color:#555;
 }
 .carousel img {
   position: absolute;
   top: 0;
   left: 0;
-  min-height: 400px;
+  min-height: 500px;
 }
 
 
