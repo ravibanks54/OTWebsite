@@ -5,6 +5,11 @@ body {
 
 }
 
+.icon {
+  float: right;
+  padding-left: 50px;
+}
+
 
 
 /* CUSTOMIZE THE NAVBAR
@@ -131,3 +136,5 @@ body {
   }
 
 }
+
+
