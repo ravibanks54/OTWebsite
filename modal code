@@ -1,0 +1,202 @@
+    <div class="container-fluid">
+        <div class="row" id="brothers" style="padding-top:60px">
+            <h3 align="center"><b>Core Executive Board</b></h3>
+        </div>
+        <div class="row">
+            <div class="col-md-2 col-md-offset-1">
+                <h4 align="center">Bharath Krishnamurthi</h4>
+                    <img src="assets/modals/bharath.jpg" alt="Bharath Krishnamurthi" style="width:100px;height:150px" class="img-responsive center-block">
+                <p align="center"><i>Regent</i></p>
+            </div>
+
+            <div class="col-md-2">
+                <h4 align="center">Kush Oza</h4>
+                
+                    <img src="assets/modals/kush.jpg" alt="Kush Oza" style="width:100px;height:150px" class="img-responsive center-block">
+                
+                <p align="center"><i>Vice Regent</i></p>
+            </div>
+
+
+        <div class="col-md-2">
+            <h4 align="center">Milap Shah</h4>
+            
+                <img src="assets/modals/milap.jpg" alt="Milap Shah" style="width:100px;height:150px" class="img-responsive center-block">
+            
+            <p align="center"><i>Treasurer</i></p>
+        </div>
+
+        <div class="col-md-2">
+            <h4 align="center">Salman Ahmed</h4>
+            
+                <img src="assets/modals/salman.jpg" alt="Salman Ahmed" style="width:100px;height:150px" class="img-responsive center-block">
+            
+            <p align="center"><i>Corresponding Secretary</i></p>
+        </div>
+
+        <div class="col-md-2">
+            <h4 align="center">Gautam Venkatesan</h4>
+            
+                <img src="assets/modals/gautam.jpg" alt="Gautam Venkatesan" style="width:100px;height:150px" class="img-responsive center-block">
+            
+            <p align="center"><i>Scribe</i></p>
+        </div>
+    </div>
+</div>
+
+    <!-- Trigger the modal with a button -->
+
+    <!-- Modal -->
+    <div id="regent" class="modal fade" role="dialog">
+        <div class="modal-dialog model-sm">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">×</button>
+                    <h4 class="modal-title">Bharath Krishnamurthi</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <img src="/assets/modals/bharath.png" alt="Pulpit Rock" style="width:150px;height:150px">
+                            </div>
+                            <div class="col-md-6">
+                                <p>Bharath Krishnamurthi is the Regent of Theta Tau's Fall 2015 Executive Board.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    
+    <!-- Modal -->
+    <div id="viceregent" class="modal fade" role="dialog">
+        <div class="modal-dialog model-sm">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">×</button>
+                    <h4 class="modal-title">Kush Oza</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <img src="https://photos-2.dropbox.com/t/2/AAC6YLWmPxzvLoti3pJvEnSDCNdrUHHeDbmxy2Y6jbvrjQ/12/8017185/png/32x32/1/_/1/2/Screenshot%202015-08-27%2016.25.43.png/EImd-wUY2tYCIAIoAg/JD2lbQyCThbMqX4yhm5GN0BSWfoDK54BJNpqLQqfaco?size=1024x768&amp;size_mode=2" alt="Pulpit Rock" style="width:150px;height:150px">
+                            </div>
+                            <div class="col-md-6">
+                                <p>Kush Oza is the Vice Regent of Theta Tau's Fall 2015 Executive Board.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    
+        <!-- Modal -->
+    <div id="treasurer" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-sm">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">×</button>
+                    <h4 class="modal-title">Milap Shah</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <img src="https://photos-2.dropbox.com/t/2/AAC6YLWmPxzvLoti3pJvEnSDCNdrUHHeDbmxy2Y6jbvrjQ/12/8017185/png/32x32/1/_/1/2/Screenshot%202015-08-27%2016.25.43.png/EImd-wUY2tYCIAIoAg/JD2lbQyCThbMqX4yhm5GN0BSWfoDK54BJNpqLQqfaco?size=1024x768&amp;size_mode=2" alt="Pulpit Rock" style="width:150px;height:150px">
+                            </div>
+                            <div class="col-md-6">
+                                <p>Milap Shah is the Regent of Theta Tau's Fall 2015 Executive Board.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    
+        <!-- Modal -->
+    <div id="scribe" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-sm">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">×</button>
+                    <h4 class="modal-title">Gautam Venkatesan</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <img src="https://photos-2.dropbox.com/t/2/AAC6YLWmPxzvLoti3pJvEnSDCNdrUHHeDbmxy2Y6jbvrjQ/12/8017185/png/32x32/1/_/1/2/Screenshot%202015-08-27%2016.25.43.png/EImd-wUY2tYCIAIoAg/JD2lbQyCThbMqX4yhm5GN0BSWfoDK54BJNpqLQqfaco?size=1024x768&amp;size_mode=2" alt="Pulpit Rock" style="width:150px;height:150px">
+                            </div>
+                            <div class="col-md-6">
+                                <p>Gautam Venkatesan is the Scribe of Theta Tau's Fall 2015 Executive Board.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+        <!-- Modal -->
+    <div id="correspondingsecretary" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-sm">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">×</button>
+                    <h4 class="modal-title">Salman Ahmed</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <img src="/assets/modals/bharath.png" alt="Pulpit Rock" style="width:150px;height:150px">
+                            </div>
+                            <div class="col-md-6">
+                                <p>Salman Ahmed is the Corresponding Secretary of Theta Tau's Fall 2015 Executive Board.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
