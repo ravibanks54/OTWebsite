@@ -354,6 +354,46 @@ $(function() {
 			$('#jonathan').modal({show:true});   
 			
 		});
+		$('#pop72').on('click', function() {
+			$('.imagepreview').attr('src', $(this).find('img').attr('src'));
+			$('#yazmin').modal({show:true});   
+			
+		});
+		$('#pop73').on('click', function() {
+			$('.imagepreview').attr('src', $(this).find('img').attr('src'));
+			$('#aisvarya').modal({show:true});   
+			
+		});
+		$('#pop74').on('click', function() {
+			$('.imagepreview').attr('src', $(this).find('img').attr('src'));
+			$('#kchi').modal({show:true});   
+			
+		});
+		$('#pop75').on('click', function() {
+			$('.imagepreview').attr('src', $(this).find('img').attr('src'));
+			$('#caroline').modal({show:true});   
+			
+		});
+		$('#pop76').on('click', function() {
+			$('.imagepreview').attr('src', $(this).find('img').attr('src'));
+			$('#shubrha').modal({show:true});   
+			
+		});
+		$('#pop77').on('click', function() {
+			$('.imagepreview').attr('src', $(this).find('img').attr('src'));
+			$('#aisha').modal({show:true});   
+			
+		});
+		$('#pop78').on('click', function() {
+			$('.imagepreview').attr('src', $(this).find('img').attr('src'));
+			$('#isabel').modal({show:true});   
+			
+		});
+		$('#pop79').on('click', function() {
+			$('.imagepreview').attr('src', $(this).find('img').attr('src'));
+			$('#adithya').modal({show:true});   
+			
+		});
 
 
 
