@@ -6,7 +6,7 @@ $(function() {
 		});	
 		$('#pop2').on('click', function() {
 			$('.imagepreview').attr('src', $(this).find('img').attr('src'));
-			$('#ethan').modal({show:true});   
+			$('#ken').modal({show:true});   
 			
 		});	
 		$('#pop3').on('click', function() {
@@ -21,7 +21,7 @@ $(function() {
 		});	
 		$('#pop5').on('click', function() {
 			$('.imagepreview').attr('src', $(this).find('img').attr('src'));
-			$('#ken').modal({show:true});   
+			$('#isabel').modal({show:true});   
 			
 		});	
 		$('#pop6').on('click', function() {
