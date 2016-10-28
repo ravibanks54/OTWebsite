@@ -1,7 +1,7 @@
 $(function() {
 		$('#pop1').on('click', function() {
 			$('.imagepreview').attr('src', $(this).find('img').attr('src'));
-			$('#gautam').modal({show:true});   
+			$('#kush1').modal({show:true});   
 			
 		});	
 		$('#pop2').on('click', function() {
@@ -376,7 +376,7 @@ $(function() {
 		});
 		$('#pop76').on('click', function() {
 			$('.imagepreview').attr('src', $(this).find('img').attr('src'));
-			$('#shubrha').modal({show:true});   
+			$('#shubhra').modal({show:true});   
 			
 		});
 		$('#pop77').on('click', function() {
