@@ -185,7 +185,6 @@ img {
   right: 0%;
   left: -10%;
 }
-}
 @media (min-width:992px) {
   #logo-pic {
     position: relative;
@@ -305,4 +304,11 @@ font-family: 'Source Sans Pro', sans-serif;
 .link:visited {
   color:#818181;
   text-decoration: none !important;
+}
+
+.img-circle{
+  border-radius: 50%;
+  vertical-align: middle;
+  width: 180px;
+  height: 150px;
 }
