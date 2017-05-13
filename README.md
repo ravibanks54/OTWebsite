@@ -9,4 +9,3 @@ If you would like to view the website and render in the current state follow the
 3. DO NOT move files around into different folders as the may break functionality.
 4. Open the index.html file using your browser (Chrome, Firefox, IE, etc.) and you should be taken to the main page.
 
-If there are any comments, questions, bug reports you can use the Gothub issues functionality or email me at tawilbrooks@gmail.com
