@@ -306,9 +306,19 @@ font-family: 'Source Sans Pro', sans-serif;
   text-decoration: none !important;
 }
 
-.img-circle{
+.img-circle {
   border-radius: 50%;
   vertical-align: middle;
   width: 180px;
   height: 150px;
+}
+
+#SocialIcon {
+  width: 55px;
+  height: 70px;
+  position: inherit;
+}
+
+#SocialIcon:hover {
+  opacity: 0.4;
 }
