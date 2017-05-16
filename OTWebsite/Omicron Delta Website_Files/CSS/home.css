@@ -77,7 +77,7 @@ img {
 }
 @media (min-width:450px) {
   .carousel-inner {
-    height:60vh;
+    height:40vh;
   }
   .caption {
     top:20%;
@@ -85,7 +85,7 @@ img {
 }
 @media (min-width:610px) {
   .carousel-inner {
-    height:70vh;
+    height:50vh;
   }
   #header {
     font-size:18px;
@@ -97,7 +97,7 @@ img {
 }
 @media (min-width:768px) {
   .carousel-inner {
-    height:95vh;
+    height:65vh;
   }
   .pillar {
     margin-bottom: 20px;
@@ -109,9 +109,12 @@ img {
     font-size: 18px;
     line-height:50px;
   }
-
 }
+
 @media (min-width:992px) {
+  .carousel-inner {
+    height:75vh;
+  }
   img {
     position: relative;
     top: 50%;
@@ -127,13 +130,20 @@ img {
     font-size: 22px;
     line-height:50px;
   }
+  
 }
 @media (min-width:1200px) {
+  .carousel-inner {
+    height:85vh;
+  }
   #header {
     font-size:20px;
   }
 }
 @media (min-width:1550px) {
+  .carousel-inner {
+    height:100vh;
+  }
 }
 
 .pillar {
