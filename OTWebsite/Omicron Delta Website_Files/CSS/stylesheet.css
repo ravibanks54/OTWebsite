@@ -150,7 +150,7 @@ img {
   width: 100%;
 }
 
-@media (min-width:400px) {
+@media (min-width:0px) {
   #header {
     font-size:16px;
     font-weight: 300;
@@ -254,7 +254,9 @@ a:hover {
 }
 
 #header {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 14px;
+  color: #FFCC33;
   letter-spacing: .10em;
   font-weight: 300;
 }
@@ -313,12 +315,25 @@ font-family: 'Source Sans Pro', sans-serif;
   height: 150px;
 }
 
+#footer-container {
+  width: 240px;
+}
+
+#icon-row{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 #SocialIcon {
-  width: 55px;
+  width: 70px;
   height: 70px;
-  position: inherit;
+  
 }
 
 #SocialIcon:hover {
   opacity: 0.4;
 }
+
+
+
