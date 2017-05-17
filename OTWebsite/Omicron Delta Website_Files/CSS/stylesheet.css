@@ -335,5 +335,10 @@ font-family: 'Source Sans Pro', sans-serif;
   opacity: 0.4;
 }
 
+#MenuExpand {
+  width: 30px;
+  height: 30px;
+}
+
 
 

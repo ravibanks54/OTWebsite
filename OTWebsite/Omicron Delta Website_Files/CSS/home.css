@@ -83,9 +83,14 @@ img {
     top:20%;
   }
 }
-@media (min-width:610px) {
+@media (min-width:600px) {
   .carousel-inner {
     height:50vh;
+  }
+  img {
+    position: relative;
+    top: 50%;
+    transform: translateY(-5%);  
   }
   #header {
     font-size:18px;
@@ -98,6 +103,11 @@ img {
 @media (min-width:768px) {
   .carousel-inner {
     height:65vh;
+  }
+  img {
+    position: relative;
+    top: 50%;
+    transform: translateY(-10%);  
   }
   .pillar {
     margin-bottom: 20px;
