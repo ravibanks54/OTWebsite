@@ -194,6 +194,7 @@ img {
   .navbar {
     text-align: center;
   }
+  
 }
 .dropdown-menu.pull-centerish {
   right: 0%;
@@ -357,7 +358,6 @@ font-family: 'Source Sans Pro', sans-serif;
 #SocialIcon {
   width: 70px;
   height: 70px;
-  
 }
 
 #SocialIcon:hover {

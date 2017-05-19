@@ -207,6 +207,10 @@ img {
   font-weight: 300;
 }
 
+#pillars {
+color: #FFCC33;
+}
+
 .pillar-content {
   padding-right: 40px;
   padding-left: 40px;
