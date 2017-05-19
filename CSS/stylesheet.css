@@ -150,7 +150,19 @@ img {
   width: 100%;
 }
 
-@media (min-width:0px) {
+@media (min-width:0px) and (max-width:500px) {
+  #header {
+    visibility: hidden;
+  }
+  .subtitle {
+    visibility: hidden;
+  }
+  .navbar {
+    text-align: left;
+  }
+}
+
+@media (min-width:500px) {
   #header {
     font-size:16px;
     font-weight: 300;
@@ -161,8 +173,9 @@ img {
   }
   .navbar {
   text-align: left;
+  }
 }
-}
+
 @media (min-width:610px) {
   #header {
     font-size:20px;
@@ -172,6 +185,7 @@ img {
     font-size:16px;
   }
 }
+
 @media (min-width: 768px) {
   .dropdown-menu.pull-center {
     right: 0%;

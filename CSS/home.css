@@ -36,6 +36,14 @@ img {
   width: 100%;
 }
 
+@media (max-width: 500px) {
+  .caption {
+    visibility: hidden;
+  }
+  .thumbnail img{
+    display: none;
+  }
+}
 
 @media (min-width:400px) {
   .carousel-inner {
@@ -56,16 +64,7 @@ img {
     color: #000000;
     text-align: center;
   }
-
- 
-  .pillar {
-    margin-bottom: 50px;
-  }
-  #pillars {
-    margin-top:20px;
-    background-color: #FFCC33;
-    padding-top: 40px;
-  }
+  
   .caption-text {
     font-size: 14px;
     line-height:25px;
@@ -73,8 +72,8 @@ img {
   .caption {
     top:0%;
   }
-  
 }
+
 @media (min-width:450px) {
   .carousel-inner {
     height:40vh;
@@ -121,6 +120,26 @@ img {
   }
 }
 
+@media (max-width:768px) and (min-width:400px){
+  .pillar {
+    margin-bottom: 20px;
+    margin-left: 25%;
+  }
+  #pillars {
+    margin-top:50px;
+  }
+}
+
+@media (min-width:0px){
+  .pillar {
+    margin-bottom: 20px;
+    margin-left: -10%;
+  }
+  #pillars {
+    margin-top:50px;
+  }
+}
+
 @media (min-width:992px) {
   .carousel-inner {
     height:75vh;
@@ -142,6 +161,32 @@ img {
   }
   
 }
+
+@media (max-width:1020px){
+  .pillar {
+    margin-bottom: 50px;
+    width: 200px; 
+  }
+
+  #pillars {
+    margin-top:20px;
+    background-color: #FFCC33;
+    padding-top: 40px;
+  }
+ }
+
+ @media (min-width:1020px){
+  .pillar {
+    margin-bottom: 50px;
+  }
+
+  #pillars {
+    margin-top:20px;
+    background-color: #FFCC33;
+    padding-top: 40px;
+  }
+ }
+
 @media (min-width:1200px) {
   .carousel-inner {
     height:85vh;
