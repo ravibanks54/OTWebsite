@@ -214,6 +214,18 @@ font-family: 'Source Sans Pro', sans-serif;  font-size: 17px;
   color: #000000
 }
 
+td {
+font-family: 'Source Sans Pro', sans-serif;  font-size: 17px;
+  font-weight: 100;
+  color: #000000
+}
+
+td {
+  font-family: 'Source Sans Pro', sans-serif;  font-size: 17px;
+  font-weight: bold;
+  color: #000000
+}
+
 .subtitle {
 
   text-align: left;
@@ -295,17 +307,20 @@ font-family: 'Source Sans Pro', sans-serif;
 
 .link {
   text-decoration: none;
-  color:#818181;
+  color: #8b0000;
+  font-weight: 300;
   text-align: center;
 }
 .link:hover {
   text-decoration: none;
   color: #000000 !important;
+  font-weight: 300;
 }
 
 .link:visited {
-  color:#818181;
+  color:#8b0000;
   text-decoration: none !important;
+  font-weight: 300;
 }
 
 .img-circle {
@@ -340,5 +355,11 @@ font-family: 'Source Sans Pro', sans-serif;
   height: 30px;
 }
 
+.TextBox {
+  background-color: #FFCC33;
+  padding: 10px;
+  border-radius: 10px;
+  text-align:center
+}
 
 

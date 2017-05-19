@@ -193,3 +193,22 @@ img {
   text-shadow: 0 0px 0px;
   width:5%;
 }
+
+
+#ReqTable {
+  position: relative;
+  width: 100%;
+}
+
+
+#ReqItem{
+  padding: 20px;
+  text-align: center;
+  font-weight: 100;
+}
+
+#ReqHead{
+  padding: 10px;
+  text-align: center;
+  font-weight: 700;
+}
