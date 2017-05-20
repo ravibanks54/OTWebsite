@@ -49,13 +49,6 @@ img {
   .carousel-inner {
     height:50vh;
   }
-  #header {
-    font-size:14px;
-    padding-left: 60px; 
-    font-weight: 300;
-    font-family: 'Source Sans Pro', sans-serif;
-    color: #FFCC33;
-  }
   #description {
     margin: 0px 60px 20px;
   }
@@ -90,9 +83,6 @@ img {
     position: relative;
     top: 50%;
     transform: translateY(-5%);  
-  }
-  #header {
-    font-size:18px;
   }
   .caption-text {
     font-size: 16px;
@@ -190,9 +180,6 @@ img {
 @media (min-width:1200px) {
   .carousel-inner {
     height:85vh;
-  }
-  #header {
-    font-size:20px;
   }
 }
 @media (min-width:1550px) {
