@@ -106,6 +106,13 @@ display: block;
   overflow: visible !important;
 }
 
+#title {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 20px;
+    color: #000000;
+    text-align: center;
+  }
+
 @media (max-width: 768px) {  
   .dropdown > a {
     margin: 0 auto;
@@ -237,6 +244,13 @@ img {
   #header {
     font-size:18px;
   }
+}
+
+hr {
+  height: 1px;
+  color: #FFCC33;
+  background-color: #FFCC33;
+  border: none;
 }
 
 li {

@@ -1,0 +1,59 @@
+.category-title {
+    margin-top:50px;
+    margin-bottom:0px;
+}
+
+.category-content {
+    margin-top:0px;
+}
+
+.values-content {
+  margin: 20px 15px;
+}
+
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#parallax { 
+    background: url('.././Images/Values/Parallax.jpg') 100% 0 fixed;
+    background-size: cover;
+    margin: 0 auto; 
+    width: 100%; 
+    position: relative; 
+    box-shadow:none;
+    padding: 100px 0;
+}
+#content { 
+    height: auto;  
+    margin: 0 auto; 
+    width: 100%; 
+    position: relative; 
+    box-shadow: none;
+}
+
+@media (min-width:400px) {
+    #parallax {
+        height: 200px;  
+    }
+}
+
+@media (min-width:500px) {
+    #parallax {
+        height: 300px;  
+    }
+}
+
+@media (min-width:992px) {
+    #parallax {
+        height: 400px; 
+    }
+}
+
+@media (min-width:1200px) {
+    #parallax {
+        height: 500px;  
+    }
+}
