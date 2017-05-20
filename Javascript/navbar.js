@@ -6,7 +6,7 @@ $(document).ready(function() {
     }
 
     if ($(window).scrollTop() < 106) {
-      $('.navbar').removeClass('navbar-fixed-top');
+      $('.navbar').removeClass('navbar-fixed-top'); //Condenses nav bar for small devices
     }
   });
 });

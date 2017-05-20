@@ -1,12 +1,12 @@
 $( document ).ready(function() {
     $("[rel='tooltip']").tooltip();    
  
-    $('.thumbnail').hover(
+    $('.thumbnail').hover( //Finds the caption and hovers into picture
         function(){
-            $(this).find('.caption').fadeIn(100); //.fadeIn(250) .slideDown
+            $(this).find('.caption').fadeIn(100); 
         },
         function(){
-            $(this).find('.caption').fadeOut(100); //.fadeOut(205) .slideUp
+            $(this).find('.caption').fadeOut(100);
         }
     ); 
 });
