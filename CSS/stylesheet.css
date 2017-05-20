@@ -268,17 +268,10 @@ font-family: 'Source Sans Pro', sans-serif;  font-size: 17px;
 td {
 font-family: 'Source Sans Pro', sans-serif;  font-size: 17px;
   font-weight: 100;
-  color: #000000
-}
-
-td {
-  font-family: 'Source Sans Pro', sans-serif;  font-size: 17px;
-  font-weight: bold;
-  color: #000000
+  color: #000000;
 }
 
 .subtitle {
-
   text-align: left;
 }
 
@@ -412,5 +405,9 @@ font-family: 'Source Sans Pro', sans-serif;
   text-align:center
 }
 
-
+.FullRow {
+  background-color: #FFCC33;
+  text-align:center;
+  width: 100%;
+}
 

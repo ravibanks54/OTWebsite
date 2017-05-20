@@ -50,7 +50,7 @@ img {
     height:50vh;
   }
   #description {
-    margin: 0px 60px 20px;
+    margin: 100px 60px 40px;
   }
   .caption-text {
     font-size: 14px;
@@ -178,7 +178,7 @@ img {
 }
 @media (min-width:1550px) {
   .carousel-inner {
-    height:100vh;
+    height:110vh;
   }
 }
 
@@ -186,10 +186,6 @@ img {
   margin-top:10px;
   color:#000000;
   font-weight: 300;
-}
-
-#pillars {
-color: #FFCC33;
 }
 
 .pillar-content {

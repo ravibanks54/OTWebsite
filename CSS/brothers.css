@@ -43,7 +43,7 @@ hr {
     font-size: 10px;
   }
   .caption {
-    height:50%;
+    height:40%;
   }
 }
 @media (min-width:450px) {
@@ -51,12 +51,12 @@ hr {
     font-size: 12px;
   }
   .caption {
-    height:40%;
+    height:30%;
   }
 }
 @media (min-width:610px) {
   .caption {
-    height:37.5%;
+    height:27.5%;
   }
   .name {
     font-size: 16px;
@@ -90,8 +90,4 @@ hr {
   width: 40px;
   margin-left: 10px; 
   margin-right: 10px;
-}
-
-#EBoardImg{
-  height: 37%;
 }

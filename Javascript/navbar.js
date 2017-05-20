@@ -1,6 +1,7 @@
 $(document).ready(function() {
 
   $(window).scroll(function () {
+
     if ($(window).scrollTop() > 105) {
       $('.navbar').addClass('navbar-fixed-top');
     }
