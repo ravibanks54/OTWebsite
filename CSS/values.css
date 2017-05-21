@@ -20,17 +20,17 @@
 #parallax { 
     background: url('.././Images/Values/Parallax.jpg') 100% 0 fixed;
     background-size: cover;
-    margin: 0 auto; 
     width: 100%; 
     position: relative; 
     box-shadow:none;
     padding: 100px 0;
+    margin: 0 auto; 
 }
 #content { 
+    position: relative; 
+    width: 100%; 
     height: auto;  
     margin: 0 auto; 
-    width: 100%; 
-    position: relative; 
     box-shadow: none;
 }
 
