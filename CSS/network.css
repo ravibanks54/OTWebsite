@@ -1,0 +1,45 @@
+
+.Networkintro {
+    margin-top: 40px;
+}
+
+#parallax { 
+    background: url('.././Images/Network/Parallax.jpg') 100% 0 fixed;
+    background-size: cover;
+    width: 100%; 
+    position: relative; 
+    box-shadow:none;
+    padding: 100px 0;
+    margin: 0 auto; 
+}
+#content { 
+    position: relative; 
+    width: 100%; 
+    height: auto;  
+    margin: 0 auto; 
+    box-shadow: none;
+}
+
+@media (min-width:400px) {
+    #parallax {
+        height: 200px;  
+    }
+}
+
+@media (min-width:500px) {
+    #parallax {
+        height: 400px;  
+    }
+}
+
+@media (min-width:992px) {
+    #parallax {
+        height: 500px; 
+    }
+}
+
+@media (min-width:1200px) {
+    #parallax {
+        height: 600px;  
+    }
+}
