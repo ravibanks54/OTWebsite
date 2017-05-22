@@ -16,7 +16,7 @@ img {
     position:relative;
     overflow:hidden;
     padding:0px;
-    border: 2px solid #FFCC33;
+    border: 5px solid #8B0000;
 }
 
 .caption {
@@ -90,4 +90,8 @@ hr {
   width: 40px;
   margin-left: 10px; 
   margin-right: 10px;
+}
+
+.TextBox{
+  margin-top: 40px;
 }

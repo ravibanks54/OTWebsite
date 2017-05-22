@@ -1,0 +1,18 @@
+.DMContent {
+    margin-top: 40px;
+}
+
+.ServicePic {
+    border: 0px;
+    padding: 0px;
+}
+
+.ServicePic > img {
+    border: 5px solid #8B0000;
+}
+
+/* Maybe link photos to facebook posts? If so, use this for hover
+.ServicePic > img:hover{
+    border: 5px solid #E27373;
+    opacity: 0.4;
+}*/
