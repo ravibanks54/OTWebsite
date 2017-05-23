@@ -1,10 +1,9 @@
-
-.Networkintro {
+.EventsContent{
     margin-top: 80px;
 }
 
 #parallax { 
-    background: url('.././Images/Network/parallax.jpg') 100% 0 fixed;
+    background: url('.././Images/Events/Parallax.jpg') 100% 0 fixed;
     background-size: cover;
     width: 100%; 
     position: relative; 
