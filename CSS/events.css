@@ -2,6 +2,16 @@
     margin-top: 80px;
 }
 
+
+.EventPic {
+    border: 0px;
+    padding: 0px;
+}
+
+.EventPic > img {
+    border: 5px solid #8B0000;
+}
+
 #parallax { 
     background: url('.././Images/Events/Parallax.jpg') 100% 0 fixed;
     background-size: cover;
