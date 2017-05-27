@@ -2,3 +2,70 @@
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
+.row{
+    margin-top: 10px; 
+}
+
+.TopOfDuouble{
+    margin-bottom: 16px; 
+}
+
+.BrohoodPic {
+    border: 0px;
+}
+
+.BrohoodPic img {
+    border: 5px solid #8B0000;
+}
+
+#parallax { 
+    background: url('.././Images/Brotherhood/Parallax.jpg') 100% 0 fixed;
+    background-size: cover;
+    width: 100%; 
+    position: relative; 
+    box-shadow:none;
+    padding: 100px 0;
+    margin: 0px auto; 
+}
+#content { 
+    position: relative; 
+    width: 100%; 
+    height: auto;  
+    margin: 0 auto; 
+    box-shadow: none;
+}
+
+@media (min-width:400px) {
+    #parallax {
+        height: 500px;  
+    }
+}
+
+@media (min-width:500px) {
+    #parallax {
+        height: 600px;  
+    }
+}
+
+@media (min-width:992px) {
+    #parallax {
+        height: 700px; 
+    }
+}
+
+@media (min-width:1200px) {
+    #parallax {
+        height: 800px;  
+    }
+}
+
+#Overlay {
+    background-color: #000000;
+    opacity: 0.60;
+    color:#ffffff; 
+    font-size:24px; 
+    font-family: 'Roboto', sans-serif; 
+    letter-spacing: .15em; 
+    line-height:50px; 
+}
