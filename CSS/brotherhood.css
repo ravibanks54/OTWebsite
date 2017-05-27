@@ -7,7 +7,7 @@
     margin-top: 10px; 
 }
 
-.TopOfDuouble{
+div > img{
     margin-bottom: 16px; 
 }
 
@@ -38,25 +38,38 @@
 
 @media (min-width:400px) {
     #parallax {
-        height: 500px;  
-    }
+        height: 400px;  
+    } 
 }
 
 @media (min-width:500px) {
     #parallax {
-        height: 600px;  
+        height: 500px;  
+    }
+    #Overlay {
+        font-size:16px; 
+        letter-spacing: .10em; 
+        line-height:30px; 
+    }
+}
+
+@media (min-width:600px){
+    #Overlay {
+        font-size:22px; 
+        letter-spacing: .12em; 
+        line-height:50px; 
     }
 }
 
 @media (min-width:992px) {
     #parallax {
-        height: 700px; 
+        height: 600px; 
     }
 }
 
 @media (min-width:1200px) {
     #parallax {
-        height: 800px;  
+        height: 700px;  
     }
 }
 
@@ -64,8 +77,5 @@
     background-color: #000000;
     opacity: 0.60;
     color:#ffffff; 
-    font-size:24px; 
     font-family: 'Roboto', sans-serif; 
-    letter-spacing: .15em; 
-    line-height:50px; 
 }
