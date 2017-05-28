@@ -417,3 +417,61 @@ font-family: 'Source Sans Pro', sans-serif;
   width: 100%;
 }
 
+section#contact {
+    margin-top: 10px;
+    background-color: #ffcc33;
+    background-image: url('.././Images/Contact.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.section-heading {
+    color: white;
+}
+.section-subheading{
+    color: white;
+}
+.form-group {
+    margin-bottom: 25px;
+} 
+.form-group input, .form-group textarea {
+    padding: 20px;
+}
+.form-group input.form-control {
+    height: auto;
+}
+ .form-group textarea.form-control {
+    height: 236px;
+}
+ .form-control:focus {
+    border-color: #fed136;
+    box-shadow: none;   
+}
+::-webkit-input-placeholder {
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #eeeeee;
+}
+:-moz-placeholder {
+  /* Firefox 18- */
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #eeeeee;
+}
+::-moz-placeholder {
+  /* Firefox 19+ */
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #eeeeee;
+}
+:-ms-input-placeholder {
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #eeeeee;
+}
+.text-danger {
+    color: #e74c3c;
+}
