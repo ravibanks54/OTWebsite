@@ -390,12 +390,7 @@ font-family: 'Source Sans Pro', sans-serif;
   margin-right: auto;
 }
 
-#SocialIcon {
-  width: 70px;
-  height: 70px;
-}
-
-#SocialIcon:hover {
+.SocialIcon:hover {
   opacity: 0.4;
 }
 
