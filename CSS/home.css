@@ -49,9 +49,6 @@ img {
   .carousel-inner {
     height:50vh;
   }
-  #description {
-    margin: 100px 60px 40px;
-  }
   .caption-text {
     font-size: 14px;
     line-height:25px;
@@ -132,9 +129,6 @@ img {
     position: relative;
     top: 50%;
     transform: translateY(-10%);  
-  }
-  #description {
-    margin: 100px 20px;
   }
   .pillar {
     margin-bottom: 80px;
