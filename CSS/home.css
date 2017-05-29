@@ -47,7 +47,7 @@ img {
 
 @media (min-width:400px) {
   .carousel-inner {
-    height:50vh;
+    height:30vh;
   }
   .caption-text {
     font-size: 14px;
@@ -203,21 +203,9 @@ img {
   width:5%;
 }
 
-#ReqTable {
-  position: relative;
-  width: 100%;
-}
-
-#ReqItem{
-  padding: 20px;
-  text-align: center;
-  font-weight: 100;
-}
-
-#ReqHead{
-  padding: 10px;
-  text-align: center;
-  font-weight: 700;
+.HomeContent {
+  margin-top:60px;
+  margin-bottom: 60px;
 }
 
 #PictureRow {
