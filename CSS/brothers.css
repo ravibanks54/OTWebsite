@@ -34,40 +34,58 @@ hr {
 
 @media (min-width:400px) {
   .name {
-    font-size: 14px;
+    font-size: 16px;
   }
   .descript {
-    font-size: 10px;
+    font-size: 14px;
   }
   .caption {
     height:40%;
   }
 }
 @media (min-width:450px) {
+  .name {
+    font-size: 18px;
+  }
   .descript {
-    font-size: 12px;
+    font-size: 16px;
   }
   .caption {
     height:30%;
   }
 }
 @media (min-width:610px) {
+  .name {
+    font-size: 20px;
+  }
+  .descript {
+    font-size: 16px;
+  }
   .caption {
     height:27.5%;
   }
-  .name {
-    font-size: 16px;
-  }
 }
 @media (min-width:768px) {
+  .name {
+    font-size: 22px;
+  }
   .descript {
-    font-size: 13px;
+    font-size: 16px;
+  }
+  .caption {
+    height:27.5%;
   }
   
 }
 @media (min-width:1200px) {
+  .name {
+    font-size: 24px;
+  }
   .descript {
-    font-size: 15px;
+    font-size: 16px;
+  }
+  .caption {
+    height:27.5%;
   }
 }
 @media (min-width:1550px) {

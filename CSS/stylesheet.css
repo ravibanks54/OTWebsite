@@ -415,7 +415,7 @@ font-family: 'Source Sans Pro', sans-serif;
 section#contact {
     margin-top: 10px;
     background-color: #ffcc33;
-    background-image: url('.././Images/Contact.jpg');
+    background-image: url('../Images/Contact.jpg');
     background-position: center;
     background-repeat: no-repeat;
 }

@@ -2,7 +2,7 @@
 .carousel-fade .carousel-inner .item {
   opacity: 0;
   transition-property: opacity;
-  transition-duration: .4s;
+  transition-duration: .5s;
   transition-timing-function:linear;
 }
 .carousel-fade .carousel-inner .item,
@@ -36,15 +36,6 @@ img {
   width: 100%;
 }
 
-@media (max-width: 500px) {
-  .caption {
-    visibility: hidden;
-  }
-  .thumbnail img{
-    display: none;
-  }
-}
-
 @media (min-width:400px) {
   .carousel-inner {
     height:30vh;
@@ -55,6 +46,23 @@ img {
   }
   .caption {
     top:0%;
+  }
+}
+
+@media (max-width: 500px) {
+  .caption {
+    visibility: hidden;
+  }
+  .thumbnail img{
+    display: none;
+  }
+}
+
+@media (max-width:600px) {
+  .carrots {
+    position: relative;
+    top: 50%;
+    transform: translateY(-5%);  
   }
 }
 

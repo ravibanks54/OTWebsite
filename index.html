@@ -18,6 +18,8 @@
         
         <!-- Other JS Files -->
         <script src="./Javascript/navbar.js"></script>
+        <script src="./Javascript/contactMe.js"></script>
+        <script src="./Javascript/jqBootstrapValidation.js"></script>
     
 
         <title>ΘΤ | ΟΔ Chapter</title>
@@ -31,7 +33,7 @@
         <div class="row" id="logo">
             <div class="col-md-6 col-sm-8 col-xs-12">
                 <div class="col-md-2 col-sm-1 col-xs-2">
-                    <a href="http://thetatau.org/"><img id="logo-pic" src="./Images/OTLetters.jpg"></a>
+                    <a href="./index.html"><img id="logo-pic" src="./Images/OTLetters.jpg"></a>
                 </div>
                 <div class="col-md-10 col-sm-10" id="header">
                     THETA TAU<br> 
@@ -52,35 +54,45 @@
                     </div>
                     <div class="navbar-collapse collapse home-nav" id="myNavbar">
                         <ul id="home-nav" class="nav navbar-nav navbar-right">
-                            <li><a href="https://brookstawil.github.io/">HOME</a></li>
+                            <li><a href="./index.html">HOME</a></li>
                             <li class="dropdown">
                                 <a class="dropdown-toggle" aria-expanded="false" aria-haspopup="false" role="button" data-toggle="dropdown" href="">ABOUT</a>
                                 <ul class="dropdown-menu pull-center">
                                     <li>
-                                        <a href="https://brookstawil.github.io/brothers">Brothers</a>
+                                        <a href="./brothers.html">Brothers</a>
                                     </li>
                                     <li>
-                                        <a href="https://brookstawil.github.io/values">Values</a>
+                                        <a href="./values.html">Values</a>
                                     </li>
                                     <li>
-                                        <a href="https://brookstawil.github.io/history">History</a>
+                                        <a href="./history.html">History</a>
                                     </li>
                                 </ul>
                             </li>
-                            <li><a href="https://brookstawil.github.io/rush">RUSH</a></li>
-                            <li><a href="https://brookstawil.github.io/service">SERVICE</a></li>
+                            <li><a href="./rush">RUSH</a></li>
+                            <li><a href="./service.html">SERVICE</a></li>
                             <li class="dropdown">
                                 <a class="dropdown-toggle" aria-expanded="false" aria-haspopup="false" role="button" data-toggle="dropdown" href=" #">PROFESSIONAL</a>
                                 <ul class="dropdown-menu pull-centerish">
                                     <li>
-                                        <a href="https://brookstawil.github.io/network">Network</a>
+                                        <a href="./network.html">Network</a>
                                     </li>
                                     <li>
-                                        <a href="https://brookstawil.github.io/events">Events</a>
+                                        <a href="./events.html">Events</a>
                                     </li>
                                 </ul>
                             </li>
-                            <li><a href="https://brookstawil.github.io/brotherhood">BROTHERHOOD</a></li>
+                            <li class="dropdown">
+                                <a class="dropdown-toggle" aria-expanded="false" aria-haspopup="false" role="button" data-toggle="dropdown" href=" #">BROTHERHOOD</a>
+                                <ul class="dropdown-menu pull-centerish">
+                                    <li>
+                                        <a href="./brotherhood.html">Album</a>
+                                    </li>
+                                    <li>
+                                        <a href="./alumni.html">Alumni</a>
+                                    </li>
+                                </ul>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -102,38 +114,33 @@
 
             <!-- Wrapper for slides -->
             <div class="carousel-inner" role="listbox">
-                <div class="item">
+                <div class="item active">
                     <img src="./Images/Home/Seniors.JPG">
                 </div>
-
+                <div class="item">
+                    <img src="./Images/Home/LyftOTWeb.JPG">
+                </div>
                 <div class="item">
                     <img src="./Images/Home/RUday.JPG">
                 </div>
-
                 <div class="item">
                     <img src="./Images/Home/Regionals.JPG">
                 </div>
-
-                <div class="item active">
-                    <img src="./Images/Home/BestClassInit.JPG">
-                </div>
-
                 <div class="item">
-                    <img src="./Images/Home/Ice.JPG">
+                    <img src="./Images/Home/BestClassInit.JPG">
                 </div>
             </div>
 
             <!-- Left and right controls -->
             <a class="left carousel-control" href=" #myCarousel" role="button" data-slide="prev">
-                <img src="./Images/Home/LastArrow.png">
+                <img class="carrots" src="./Images/Home/LastArrow.jpg">
             </a>
             <a class="right carousel-control" href=" #myCarousel" role="button" data-slide="next">
-                <img src="./Images/Home/NextArrow.png">
+                <img class="carrots "src="./Images/Home/NextArrow.jpg">
             </a>
         </div>
-        
         <!--///////////////////////////////////
-            // theta tau description
+            // Theta Tau description
             ///////////////////////////////////-->
         <div class="container HomeContent">
            <div class="row">
@@ -145,7 +152,6 @@
                 </div>
             </div>
         </div>
-        
         <!--///////////////////////////////////
             // Video
             ///////////////////////////////////-->
@@ -159,8 +165,6 @@
                 </div>
             </div>
         </div>
-        
-        
         <!--///////////////////////////////////
             // Recruitment
             ///////////////////////////////////-->
@@ -190,7 +194,7 @@
                 <div class="col-xs-12 col-sm-4 text-xs-center">
                     <img src="./Images/Home/prof.jpg" class="img-circle">                        
                     <p>PROFESSIONALISM</p>
-                    <p>The brothers of Theta Tau strive to develop a careers in the professional world. We foster strong communication, problem-solving, and leadership skills that are demonstrated in everyday life. Brothers can often be seen attending local job fairs and demonstrating their skills to the best employers in the nation.</p>
+                    <p>The brothers of Theta Tau strive to develop careers in the professional world. We foster strong communication, problem-solving, and leadership skills that are demonstrated in everyday life. Brothers can often be seen attending local job fairs and demonstrating their skills to the best employers in the nation.</p>
                 </div>
                 
                 <div class="col-xs-12 col-sm-4 text-xs-center">
@@ -224,7 +228,7 @@
                         <p>Full time enrollment at Rutgers</p>
                     </div>
                     <div class="col-xs-4 text-center">
-                        <p>Have a minimum GPA of 2.5</p>
+                        <p>Have a minimum GPA of 2.7</p>
                     </div>
                </div>
                <div class="row">
@@ -292,22 +296,21 @@
         <div id="footer">
             <div class="container" id="footer-container">
                 <div class="row" id="home-footer">
-
-                        <div class="col-xs-4 text-xs-center">
-                            <p>
-                                <a href="https://brookstawil.github.io/events" class="links">Events</a>
-                            </p>
-                        </div>
-                        <div class="col-xs-4 text-xs-center">
-                            <p>
-                                <a href="https://brookstawil.github.io/rush" class="links">Rush</a>
-                            </p>
-                        </div>
-                        <div class="col-xs-4 text-xs-center">
-                            <p>
-                                <a href="https://brookstawil.github.io/contact" class="links">Contact</a>
-                            </p>
-                        </div>
+                    <div class="col-xs-4 text-xs-center">
+                        <p>
+                            <a href="./events.html" class="links">Events</a>
+                        </p>
+                    </div>
+                    <div class="col-xs-4 text-xs-center">
+                        <p>
+                            <a href="./rush.html" class="links">Rush</a>
+                        </p>
+                    </div>
+                    <div class="col-xs-4 text-xs-center">
+                        <p>
+                            <a href="./contact.html" class="links">Contact</a>
+                        </p>
+                    </div>
                 </div>
                 <div class="row" id="icon-row">
                     <div class="col-xs-4 text-xs-center SocialIcon">
@@ -334,5 +337,4 @@
             </div>
         </div>
     
-
 </body></html>
